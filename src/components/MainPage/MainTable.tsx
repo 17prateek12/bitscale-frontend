@@ -133,8 +133,8 @@ const MainTable: React.FC = () => {
 
 
     return (
-        <div className='w-full h-screen mt-8 overflow-y-scroll'>
-            <Table className='w-full h-full max-w-full min-w-[600px] overflow-scroll'>
+        <div className='w-full h-screen mt-8 overflow-y-scroll scrollbar-thin scrollbar-thumb-gray-500 scrollbar-track-gray-200"'>
+            <Table className='w-full h-full max-w-full min-w-[600px] overflow-auto scrollbar-thin scrollbar-thumb-gray-500 scrollbar-track-gray-200"'>
                 <TableHeader className=' w-full'>
                     <TableRow className='w-full h-[36px] flex items-center bg-[#F6F6F6]'>
                         <TableCell className='w-[31px] h-full bg-[#F6F6F6] border-l border-r border-[#E2E2E3]'></TableCell>
